@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.destination-heading {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'roboto';
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+}
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  width: min-content;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 5px;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+.search-input {
+  border: none;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+}
